@@ -156,21 +156,54 @@ header {
     color: white;
     font-weight: bold;
 }
+women_bar {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    border-bottom: 3px dotted rgb(219, 219, 219);
+    
+}
 
-.women-list {
+/* Başlıq və mətn */
+.women_latest h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+.women_latest p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+/* Şəkil konteyneri */
+.women_image {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    gap: 20px; 
+    flex-wrap: nowrap; 
 }
-.women-img :nth-child(1){
+
+
+.women_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #ddd; 
+    height: 300px; 
     margin-bottom: 10px;
 }
- img{
-    width: 290;
-    height: 305;
+
+.women_image h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
 }
-.women-img{
-margin-top: 30px;
+
+.women_image p {
+    font-size: 18px;
+    color: #333;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
